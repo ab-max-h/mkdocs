@@ -16,7 +16,7 @@ El desarrollo del proyecto constó de cuatro fases:
 En una sesión presencial en la Facultad, Héctor y Jorge presentaron sus sugerencias sobre los componentes fundamentales de un banco debido a que cuentan con más experiencias con los mismos.
 
 ![Ideas de Jorge y Héctor 1](./imagenes/sugerencias_hec_jor_1.jpg)
-![Ideas de Jorge y Héctor ](./imagenes/sugerencias_hec_jor_2.jpg)
+![Ideas de Jorge y Héctor 2](./imagenes/sugerencias_hec_jor_2.jpg)
 
 ## Inicio de la diagramación
 
@@ -39,3 +39,12 @@ Por último, se presenta el diagrama de procesos hecho por Alexis.
 Debido a que los diagramas son algo grandes, la calidad de los mismos está disminuida. Para una mejor vista de los diagramas véase: [Clases HD](./imagenes/diagrama_clases_definitivo.drawio.png), [Casos de uso HD](./imagenes/diagrama_caso_de_uso.drawio.png) y [Procesos HD](./imagenes/procesos_definitivo.drawio.png)
 
 ## Scripts en Python
+
+Basado en los diagramas vistos anteriormente, se registraron ocho scripts de **Python**. El flujo del programa corre sobre el archivo **principal.py** (sic). Para una mayor documentación sobre cómo usar el script, véase [Documentación de uso](./documentacion/Instrucciones.md)
+
+## Documentación
+
+El documento de Latex estuvo a cargo de Arturo, experto en Latex.
+La instrucciones de uso del programa estuvieron a cargo del QA.
+El documento Mkdocs estuvo a carga de Alexis.
+En la presentación del proyecto colaboraron todos los integrantes del mismo.

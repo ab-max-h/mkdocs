@@ -12,7 +12,7 @@
 
 - Héctor Francisco Badillo Domínguez
 
-## # Product Manager
+## Product Manager
 
 - Alexis Salgado Urtes
 
