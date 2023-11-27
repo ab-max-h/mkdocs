@@ -46,5 +46,5 @@ Basado en los diagramas vistos anteriormente, se registraron ocho scripts de **P
 
 El documento de Latex estuvo a cargo de Arturo, experto en Latex.
 La instrucciones de uso del programa estuvieron a cargo del QA.
-El documento Mkdocs estuvo a carga de Alexis.
+El documento Mkdocs estuvo a cargo de Alexis.
 En la presentación del proyecto colaboraron todos los integrantes del mismo.
