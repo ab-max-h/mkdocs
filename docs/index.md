@@ -26,17 +26,17 @@ Basado en las ideas anteriores, Alexis presentó un diagrama de clases tomando l
 
 Posteriormente Jorge hizo un diagrama de clases mejorado, y por decisión unánime se acordó trabajar sobre ese diagrama.
 
-![Diagrama de clases definitivo](./imagenes/diagrama_clases_definitivo.drawio.png)
+![Diagrama de clases definitivo](./imagenes/clases_poo.drawio.png)
 
 Aunado a eso, Vilchis presentó un diagrama de casos de uso que, tras algunas modificaciones, terminó así
 
-![Diagrama de casos de uso definitivo](./imagenes/diagrama_caso_de_uso.drawio.png)
+![Diagrama de casos de uso definitivo](./imagenes/diagrama_casos_uso_def.drawio.png)
 
 Por último, se presenta el diagrama de procesos hecho por Alexis.
 
-![Diagrama de procesos definitivo](./imagenes/procesos_definitivo.drawio.png)
+![Diagrama de procesos definitivo](./imagenes/procesos_def.drawio.png)
 
-Debido a que los diagramas son algo grandes, la calidad de los mismos está disminuida. Para una mejor vista de los diagramas véase: [Clases HD](./imagenes/diagrama_clases_definitivo.drawio.png), [Casos de uso HD](./imagenes/diagrama_caso_de_uso.drawio.png) y [Procesos HD](./imagenes/procesos_definitivo.drawio.png)
+Debido a que los diagramas son algo grandes, la calidad de los mismos está disminuida. Para una mejor vista de los diagramas véase: [Clases HD](./imagenes/diagrama_clases_def.drawio.png), [Casos de uso HD](./imagenes/diagrama_casos_uso_def.drawio.png) y [Procesos HD](./imagenes/procesos_def.drawio.png)
 
 ## Scripts en Python
 
