@@ -1,6 +1,6 @@
 # Banco Toscos Inc
 
-Para una documentación más amplia, véase [Documentación profesional del Banco](./algo.pdf)
+Para una documentación más amplia, véase [Documentación profesional del Banco](./Sistema_Bancario.pdf)
 
 ## Desarrollo del proyecto
 
@@ -15,9 +15,6 @@ El desarrollo del proyecto constó de cuatro fases:
 
 En una sesión presencial en la Facultad, Héctor y Jorge presentaron sus sugerencias sobre los componentes fundamentales de un banco debido a que cuentan con más experiencias con los mismos.
 
-![Ideas de Jorge y Héctor 1](./imagenes/sugerencias_hec_jor_1.jpg)
-![Ideas de Jorge y Héctor 2](./imagenes/sugerencias_hec_jor_2.jpg)
-
 ## Inicio de la diagramación
 
 Basado en las ideas anteriores, Alexis presentó un diagrama de clases tomando los componentes fundamentales.
@@ -26,7 +23,7 @@ Basado en las ideas anteriores, Alexis presentó un diagrama de clases tomando l
 
 Posteriormente Jorge hizo un diagrama de clases mejorado, y por decisión unánime se acordó trabajar sobre ese diagrama.
 
-![Diagrama de clases definitivo](./imagenes/clases_poo.drawio.png)
+![Diagrama de clases definitivo](./imagenes/diagrama_clases_def.drawio.png)
 
 Aunado a eso, Vilchis presentó un diagrama de casos de uso que, tras algunas modificaciones, terminó así
 
