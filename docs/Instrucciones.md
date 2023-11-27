@@ -27,7 +27,7 @@ Una vez que hayas ejecutado el código, podrás acceder a los archivos generados
 
 Al iniciar por primera vez el programa, veremos que los CSV's estarán vacíos. Veremos el menú inicial.
 
-![Imagen del menú inicial](../imagenes/menu_inicial.png)
+![Imagen del menú inicial](./imagenes/menu_inicial.png)
 
 Para comenzar crearemos a un usuario. Para la creación de un usuario ingreseramos al sistema. En el menú inicial colocaremos:
 
@@ -40,6 +40,8 @@ Para comenzar crearemos a un usuario. Para la creación de un usuario ingreseram
 - **calculo3**
 - *¡Importante:* **Presiona enter para generar un número de usuario aleatorio**
 
+![Imagen de usuario 1](./imagenes/usuario_arturo.png)
+
 Ejecutamos otra vez el programa y a continuación crearemos otro usuario para simular una interacción entre individuos de un mismo banco. Ingresaremos
 
 - **1**
@@ -50,6 +52,8 @@ Ejecutamos otra vez el programa y a continuación crearemos otro usuario para si
 - **55615141**
 - **1234**
 - *¡Importante:* **Presiona enter para generar un número de usuario aleatorio**
+
+![usuario rene](./imagenes/usuario_rene.png)
 
 **Nota:** el número de cuenta se imprimirá en la pantalla.
 Por su seguridad deberá cerrar la sesión para que los usuarios se carguen en la base de datos. El Administrador automático verificará que su cuenta esté de manera integra.
@@ -71,7 +75,7 @@ A continuación ingresaremos los siguientes comandos:
 
 Con esto habremos generado un administrador que podrá ingresar al menú correspondiente.
 
-![Admin creado](./sdasddas)
+![admin](./imagenes/juan_admin.png)
 
 ***Urgente:*** Al igual que con los usuarios, tendremos que esperar a que la base de datos se actualice. Cerraremos el script y lo volveremos a ejecutar.
 Simplemente presione 3:
@@ -89,19 +93,27 @@ Ingresaremos como Arturo.
 - **6**
 - **500**
 
+![deposito 500](./imagenes/deposito_500.png)
+
 Apartaremos $100:
 
 - **2**
 - **100**
+
+![apartar 100](./imagenes/apartar_100.png)
 
 Transferiremos $200 a la cuenta de René:
 
 - **3**
 - En nuestro caso usaremos: **509439**
 
+![transferir](./imagenes/trans_200_varos.png)
+
 Ahora consultaremos nuestro saldo:
 
 - **1**
+
+![dinero dinero dinero](./imagenes/consulta_saldo.png)
 
 Vemos que todo es correcto.
 
@@ -111,8 +123,12 @@ Saldremos e ingresaremos a la cuenta de Administrador:
 - En nuestro caso es: **722328**
 - **sandia**
 
+![admin](./imagenes/juan_exitoso.png)
+
 Veremos los estados de cuenta con:
 
 - **3**
+
+![estado cuenta dinero](./imagenes/saldo_multiple.png)
 
 El programa tiene más funcionalidades, el usuario podrá jugar con el programa cuanto quiera.
