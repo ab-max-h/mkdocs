@@ -40,7 +40,7 @@ Debido a que los diagramas son algo grandes, la calidad de los mismos está dism
 
 ## Scripts en Python
 
-Basado en los diagramas vistos anteriormente, se registraron ocho scripts de **Python**. El flujo del programa corre sobre el archivo **principal.py** (sic). Para una mayor documentación sobre cómo usar el script, véase [Documentación de uso](./documentacion/Instrucciones.md)
+Basado en los diagramas vistos anteriormente, se registraron ocho scripts de **Python**. El flujo del programa corre sobre el archivo **principal.py** (sic). Para una mayor documentación sobre cómo usar el script, véase [Documentación de uso](./Instrucciones.md)
 
 ## Documentación
 
