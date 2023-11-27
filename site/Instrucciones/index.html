@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Instrucciones para la Ejecución del Código - Banco Profesional Toscos Inc.</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Instrucciones del proyecto - Banco Profesional Toscos Inc.</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
@@ -20,7 +20,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../..">Banco Profesional Toscos Inc.</a>
+                <a class="navbar-brand" href="..">Banco Profesional Toscos Inc.</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -31,10 +31,13 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="../.." class="nav-link">Desarrollo del proyecto</a>
+                                <a href=".." class="nav-link">Desarrollo del proyecto</a>
                             </li>
                             <li class="navitem">
-                                <a href="../../acerca_de/" class="nav-link">Acerca del proyecto</a>
+                                <a href="../acerca_de/" class="nav-link">Acerca del proyecto</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Instrucciones del proyecto</a>
                             </li>
                         </ul>
 
@@ -44,6 +47,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../acerca_de/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -76,6 +89,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#variables-de-entrada" class="nav-link">Variables de entrada</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -86,16 +103,8 @@
 <h1 id="instrucciones-para-la-ejecucion-del-codigo">Instrucciones para la Ejecución del Código</h1>
 <h2 id="configuracion-inicial">Configuración Inicial</h2>
 <p>Antes de ejecutar el código, asegúrate de seguir estos pasos iniciales:</p>
-<h3 id="1-instalacion-de-dependencias">1. Instalación de Dependencias</h3>
+<h3 id="instalacion-de-dependencias">Instalación de Dependencias</h3>
 <p>pip install pandas datetime</p>
-<h3 id="2-generar-archivos-csv">2. Generar Archivos CSV</h3>
-<ul>
-<li>En la primera ejecución del código, accede a la opción "Gestionar el Sistema".</li>
-<li>Genera dos archivos CSV para almacenar la información:</li>
-<li>Uno para clientes (clientes.csv).</li>
-<li>Otro para ejecutivos (ejecutivos.csv).</li>
-<li>Durante la generación del archivo CSV de ejecutivos, registra al menos un ejecutivo.</li>
-</ul>
 <h2 id="ejecucion-del-codigo">Ejecución del Código</h2>
 <p>Después de completar la configuración inicial, el código te guiará a través de menús explicativos. Sigue las opciones de menú para realizar las acciones deseadas de manera intuitiva.</p>
 <p><strong>Nota:</strong> Si es la primera vez que ejecutas el código, el proceso de configuración inicial es crucial para el correcto funcionamiento del programa. Sigue las instrucciones proporcionadas en los menús para garantizar una ejecución exitosa.</p>
@@ -105,7 +114,101 @@
 <li>registro_clientes.csv: Información de los clientes.</li>
 <li>registro_ejecutivos.csv: Información de los ejecutivos.</li>
 </ul>
-<p>¡Listo! Ahora estás listo para utilizar el sistema de gestión según tus necesidades.</p></div>
+<p>¡Listo! Ahora estás listo para utilizar el sistema de gestión según tus necesidades.</p>
+<h2 id="variables-de-entrada">Variables de entrada</h2>
+<p>Al iniciar por primera vez el programa, veremos que los CSV's estarán vacíos. Veremos el menú inicial.</p>
+<p><img alt="Imagen del menú inicial" src="../imagenes/menu_inicial.png" /></p>
+<p>Para comenzar crearemos a un usuario. Para la creación de un usuario ingreseramos al sistema. En el menú inicial colocaremos:</p>
+<ul>
+<li><strong>1</strong></li>
+<li><strong>2</strong></li>
+<li><strong>Arturo</strong></li>
+<li><strong>Mercado</strong></li>
+<li><strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#109;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#97;&#109;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></strong></li>
+<li><strong>55111213</strong></li>
+<li><strong>calculo3</strong></li>
+<li><em>¡Importante:</em> <strong>Presiona enter para generar un número de usuario aleatorio</strong></li>
+</ul>
+<p><img alt="Imagen de usuario 1" src="../imagenes/usuario_arturo.png" /></p>
+<p>Ejecutamos otra vez el programa y a continuación crearemos otro usuario para simular una interacción entre individuos de un mismo banco. Ingresaremos</p>
+<ul>
+<li><strong>1</strong></li>
+<li><strong>2</strong></li>
+<li><strong>Rene</strong></li>
+<li><strong>Cardenas</strong></li>
+<li><strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></strong></li>
+<li><strong>55615141</strong></li>
+<li><strong>1234</strong></li>
+<li><em>¡Importante:</em> <strong>Presiona enter para generar un número de usuario aleatorio</strong></li>
+</ul>
+<p><img alt="usuario rene" src="../imagenes/usuario_rene.png" /></p>
+<p><strong>Nota:</strong> el número de cuenta se imprimirá en la pantalla.
+Por su seguridad deberá cerrar la sesión para que los usuarios se carguen en la base de datos. El Administrador automático verificará que su cuenta esté de manera integra.
+Antes de continuar, deberemos volver a ejecutar el script de <em>principal.py</em>. Ahora ingresaremos al sistema para probar los menús.
+Crearemos un administrador para manejar el flujo del programa.</p>
+<p>A continuación ingresaremos los siguientes comandos:</p>
+<ul>
+<li><strong>2</strong></li>
+<li><strong>2</strong></li>
+<li><strong>Juan</strong></li>
+<li><strong>Escutia</strong></li>
+<li><strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#52;&#50;&#54;&#57;&#49;&#51;&#64;&#117;&#110;&#97;&#109;&#46;&#109;&#120;">&#52;&#50;&#54;&#57;&#49;&#51;&#64;&#117;&#110;&#97;&#109;&#46;&#109;&#120;</a></strong></li>
+<li><strong>55666689</strong></li>
+<li><strong>sandia</strong></li>
+<li><em>¡Importante:</em> <strong>Presiona enter para generar un número de usuario aleatorio</strong></li>
+<li><strong>Admin</strong></li>
+<li><strong>Naucalpan</strong></li>
+</ul>
+<p>Con esto habremos generado un administrador que podrá ingresar al menú correspondiente.</p>
+<p><img alt="admin" src="../imagenes/juan_admin.png" /></p>
+<p><strong><em>Urgente:</em></strong> Al igual que con los usuarios, tendremos que esperar a que la base de datos se actualice. Cerraremos el script y lo volveremos a ejecutar.
+Simplemente presione 3:</p>
+<ul>
+<li><strong>3</strong></li>
+</ul>
+<p>Tendremos que abrir el script nuevamente.
+Para ejemplificar las transiciciones financieras usaremos un usuario ya creado con el cual asignaremos dinero a un cliente. Posteriormente haremos una transferencia entre dos usuarios, siendo un caso financiero real.
+Ingresaremos como Arturo.</p>
+<ul>
+<li><strong>1</strong></li>
+<li><strong>1</strong></li>
+<li>En nuestro caso ingresaremos: <strong>291303</strong></li>
+<li><strong>calculo3</strong></li>
+<li><strong>6</strong></li>
+<li><strong>500</strong></li>
+</ul>
+<p><img alt="deposito 500" src="../imagenes/deposito_500.png" /></p>
+<p>Apartaremos $100:</p>
+<ul>
+<li><strong>2</strong></li>
+<li><strong>100</strong></li>
+</ul>
+<p><img alt="apartar 100" src="../imagenes/apartar_100.png" /></p>
+<p>Transferiremos $200 a la cuenta de René:</p>
+<ul>
+<li><strong>3</strong></li>
+<li>En nuestro caso usaremos: <strong>509439</strong></li>
+</ul>
+<p><img alt="transferir" src="../imagenes/trans_200_varos.png" /></p>
+<p>Ahora consultaremos nuestro saldo:</p>
+<ul>
+<li><strong>1</strong></li>
+</ul>
+<p><img alt="dinero dinero dinero" src="../imagenes/consulta_saldo.png" /></p>
+<p>Vemos que todo es correcto.</p>
+<p>Saldremos e ingresaremos a la cuenta de Administrador:</p>
+<ul>
+<li><strong>8</strong></li>
+<li>En nuestro caso es: <strong>722328</strong></li>
+<li><strong>sandia</strong></li>
+</ul>
+<p><img alt="admin" src="../imagenes/juan_exitoso.png" /></p>
+<p>Veremos los estados de cuenta con:</p>
+<ul>
+<li><strong>3</strong></li>
+</ul>
+<p><img alt="estado cuenta dinero" src="../imagenes/saldo_multiple.png" /></p>
+<p>El programa tiene más funcionalidades, el usuario podrá jugar con el programa cuanto quiera.</p></div>
             </div>
         </div>
 
@@ -113,14 +216,14 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../../js/jquery-3.6.0.min.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
         <script>
-            var base_url = "../..",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js"></script>
-        <script src="../../search/main.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
